@@ -1,0 +1,30 @@
+{
+    "name": "canesterin/chainpower",
+    "description": "ChainPower - A powerful PHP application",
+    "type": "project",
+    "require": {
+        "php": ">=8.0"
+    },
+    "require-dev": {
+        "phpunit/phpunit": "^10.0"
+    },
+    "autoload": {
+        "psr-4": {
+            "Chainpower\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "Chainpower\\Tests\\": "tests/"
+        }
+    },
+    "scripts": {
+        "test": "phpunit"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "canesterin"
+        }
+    ]
+}
